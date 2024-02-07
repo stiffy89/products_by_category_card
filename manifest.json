@@ -46,13 +46,13 @@
 		},
         "designtime": "dt/configuration",
 		"header": {
-			"title": "List Card with Top 5 Products",
-			"subTitle": "These are the top sellers this month",
+			"title": "{{parameters.title}}",
+			"subTitle": "{{parameters.subTitle}}",
 			"icon": {
 				"src": "sap-icon://desktop-mobile"
 			},
 			"status": {
-				"text": "5 of 20"
+				"text": "{{parameters.maxItems}} of 20"
 			}
 		},
 		"content": {
